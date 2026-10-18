@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+<meta charset="UTF-8">
+<title>Bomban Podcast</title>
+<style>
+body{
+  font-family:Arial;
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+  text-align:center;
+}
+h1{
+  color:#e63946;
+}
+.button{
+  background:#e63946;
+  color:white;
+  padding:12px 20px;
+  text-decoration:none;
+  border-radius:8px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎙️ Bomban Podcast</h1>
+
+<p>Viðtöl, fótbolti og skemmtilegar sögur.</p>
+
+<a class="button"
+href="https://open.spotify.com">
+Hlusta á Spotify
+</a>
+
+</body>
+</html>
