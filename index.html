@@ -6,7 +6,7 @@
 
 <title>Bomban Podcast | Fótbolti, viðtöl og sögur</title>
 
-<meta name="description" content="Bomban Podcast - Íslenskt hlaðvarp um fótbolta, viðtöl, skoðanir og skemmtilegar sögur.">
+<meta name="description" content="Bomban Podcast - Íslenskt hlaðvarp um fótbolta, viðtöl, skoðanir og sögur.">
 
 <style>
 
@@ -46,7 +46,9 @@ body{
     max-width:320px;
     width:100%;
     border-radius:20px;
-    box-shadow:0 0 40px rgba(255,176,0,0.35);
+
+    box-shadow:
+    0 0 40px rgba(255,176,0,0.35);
 }
 
 .host-image{
@@ -54,13 +56,13 @@ body{
 }
 
 .host-image img{
-    max-width:500px;
+    max-width:550px;
     width:100%;
     border-radius:20px;
 
     box-shadow:
     0 0 60px rgba(255,176,0,0.25),
-    0 0 120px rgba(255,100,0,0.12);
+    0 0 120px rgba(255,100,0,0.10);
 }
 
 h1{
@@ -101,6 +103,10 @@ h1{
     background:#1DB954;
 }
 
+.youtube{
+    background:#FF0000;
+}
+
 .instagram{
     background:#E1306C;
 }
@@ -111,10 +117,6 @@ h1{
 
 .facebook{
     background:#1877F2;
-}
-
-.youtube{
-    background:#FF0000;
 }
 
 .section{
@@ -133,46 +135,51 @@ iframe{
 }
 
 .sponsors{
-    margin-top:70px;
+    margin-top:80px;
+    margin-bottom:50px;
+    text-align:center;
 }
 
-.sponsors h2{
-    color:#ffb000;
-    margin-bottom:20px;
-}
+.sponsors img{
+    width:95%;
+    max-width:1100px;
+    border-radius:20px;
+    background:white;
+    padding:20px;
 
-.sponsor-box{
-    background:#1f2937;
-    border:1px solid rgba(255,176,0,0.2);
-    padding:25px;
-    border-radius:15px;
-    max-width:700px;
-    margin:auto;
+    box-shadow:
+    0 0 30px rgba(255,176,0,0.15),
+    0 0 60px rgba(255,176,0,0.08);
 }
 
 footer{
-    margin-top:60px;
-    padding:35px;
+    margin-top:40px;
+    padding:30px;
+    border-top:1px solid rgba(255,255,255,0.1);
     color:#9ca3af;
-    border-top:1px solid #374151;
 }
 
 @media(max-width:768px){
 
+.logo img{
+    max-width:240px;
+}
+
+.host-image img{
+    max-width:100%;
+}
+
 h1{
-    font-size:36px;
+    font-size:34px;
 }
 
 .tagline{
     font-size:18px;
 }
 
-.logo img{
-    max-width:250px;
-}
-
-.host-image img{
-    max-width:100%;
+.btn{
+    width:100%;
+    max-width:280px;
 }
 
 }
@@ -246,20 +253,11 @@ frameborder="0"
 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
 </iframe>
 
-<div class="sponsors">
-
-<h2>Í boði styrktaraðila</h2>
-
-<div class="sponsor-box">
-<p>Hér birtast styrktaraðilar Bombunnar.</p>
-<p style="margin-top:10px;">
-Sendu mér nöfn eða lógó styrktaraðila og við bætum þeim hér inn.
-</p>
-</div>
-
-</div>
-
 </section>
+
+<div class="sponsors">
+<img src="sponsors.jpg" alt="KHG Þjónustan, Bifreiðaverkstæði Grafarvogs og SEN & SON Arkitektar">
+</div>
 
 <footer>
 © 2026 Bomban Podcast • bomban.is
