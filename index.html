@@ -4,12 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Bomban Podcast | Fótbolti, viðtöl og sögur</title>
-
-<meta name="description" content="Bomban Podcast - Íslenskt hlaðvarp um fótbolta, viðtöl, skoðanir og skemmtilegar sögur.">
+<title>Bomban Podcast</title>
 
 <style>
-
 *{
     margin:0;
     padding:0;
@@ -17,154 +14,109 @@
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial, sans-serif;
     background:#0f172a;
     color:white;
+    text-align:center;
 }
 
 .hero{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:30px;
-    background:
-    linear-gradient(
-        rgba(15,23,42,0.8),
-        rgba(15,23,42,0.95)
-    ),
-    url("https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=1600&q=80");
-    background-size:cover;
-    background-position:center;
+    padding:40px 20px;
 }
 
-.hero-content{
-    max-width:900px;
+.logo img{
+    max-width:300px;
+    width:100%;
+    border-radius:15px;
 }
 
-.logo{
-    font-size:80px;
-    margin-bottom:20px;
+.host-image{
+    margin-top:30px;
+}
+
+.host-image img{
+    max-width:450px;
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 0 25px rgba(255,255,255,0.15);
 }
 
 h1{
-    font-size:64px;
-    margin-bottom:15px;
-    color:#ff4d4d;
+    margin-top:20px;
+    color:#ffb000;
+    font-size:48px;
 }
 
 .tagline{
-    font-size:24px;
-    margin-bottom:30px;
+    margin-top:15px;
     color:#d1d5db;
-}
-
-.description{
-    font-size:20px;
-    line-height:1.7;
-    margin-bottom:40px;
+    font-size:22px;
 }
 
 .buttons{
+    margin-top:35px;
     display:flex;
     justify-content:center;
-    gap:15px;
     flex-wrap:wrap;
+    gap:15px;
 }
 
 .btn{
-    padding:16px 28px;
-    border-radius:10px;
     text-decoration:none;
-    font-weight:bold;
-    transition:0.3s;
-    font-size:18px;
     color:white;
+    padding:15px 25px;
+    border-radius:10px;
+    font-weight:bold;
 }
 
-.spotify{
-    background:#1DB954;
-}
-
-.instagram{
-    background:#E1306C;
-}
-
-.tiktok{
-    background:#000000;
-}
-
-.facebook{
-    background:#1877F2;
-}
-
-.youtube{
-    background:#FF0000;
-}
-
-.btn:hover{
-    transform:translateY(-3px);
-}
+.spotify{background:#1DB954;}
+.instagram{background:#E1306C;}
+.tiktok{background:#000000;}
+.facebook{background:#1877F2;}
+.youtube{background:#FF0000;}
 
 .section{
     max-width:1000px;
     margin:auto;
-    padding:80px 20px;
-}
-
-.section h2{
-    text-align:center;
-    margin-bottom:30px;
-    color:#ff4d4d;
-}
-
-.player{
-    display:flex;
-    justify-content:center;
+    padding:60px 20px;
 }
 
 iframe{
     border-radius:12px;
 }
 
+.sponsors{
+    margin-top:60px;
+}
+
+.sponsors h2{
+    color:#ffb000;
+    margin-bottom:20px;
+}
+
+.sponsor-box{
+    background:#1f2937;
+    padding:20px;
+    border-radius:12px;
+    display:inline-block;
+}
+
 footer{
-    text-align:center;
-    padding:40px;
-    color:#9ca3af;
-    border-top:1px solid #1f2937;
+    margin-top:60px;
+    padding:30px;
+    border-top:1px solid #334155;
+    color:#94a3b8;
 }
-
-@media(max-width:768px){
-
-h1{
-    font-size:42px;
-}
-
-.tagline{
-    font-size:20px;
-}
-
-.description{
-    font-size:18px;
-}
-
-.logo{
-    font-size:60px;
-}
-
-}
-
 </style>
-</head>
 
+</head>
 <body>
 
 <section class="hero">
 
-<div class="hero-content">
-
-<div class="logo">🎙️</div>
+<div class="logo">
+<img src="logo.jpg" alt="Bomban Podcast">
+</div>
 
 <h1>Bomban Podcast</h1>
 
@@ -172,11 +124,9 @@ h1{
 Fótbolti • Viðtöl • Umræður • Sögur
 </p>
 
-<p class="description">
-Bomban er íslenskt hlaðvarp þar sem farið er yfir allt það heitasta úr fótboltanum,
-tekin viðtöl við áhugaverða gesti og sagðar skemmtilegar sögur úr íslensku
-knattspyrnusamfélagi.
-</p>
+<div class="host-image">
+<img src="bomban.jpg" alt="Bomban">
+</div>
 
 <div class="buttons">
 
@@ -184,6 +134,12 @@ knattspyrnusamfélagi.
 href="https://open.spotify.com/show/57XkEv1N7IYs19XHCg15ED"
 target="_blank">
 🎧 Spotify
+</a>
+
+<a class="btn youtube"
+href="https://www.youtube.com/@BombanPodcast"
+target="_blank">
+▶️ YouTube
 </a>
 
 <a class="btn instagram"
@@ -204,39 +160,38 @@ target="_blank">
 👍 Facebook
 </a>
 
-<a class="btn youtube"
-href="https://www.youtube.com/@BombanPodcast"
-target="_blank">
-▶️ YouTube
-</a>
-
-</div>
-
 </div>
 
 </section>
 
 <section class="section">
 
-<h2>Nýjasti þáttur Bomban Podcast</h2>
+<h2>Hlustaðu á Bombuna</h2>
 
-<div class="player">
+<br>
 
 <iframe
 src="https://open.spotify.com/embed/show/57XkEv1N7IYs19XHCg15ED"
 width="100%"
 height="352"
 frameborder="0"
-allowfullscreen
 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
 </iframe>
+
+<div class="sponsors">
+
+<h2>Í boði styrktaraðila</h2>
+
+<div class="sponsor-box">
+Hér birtast styrktaraðilar Bombunnar
+</div>
 
 </div>
 
 </section>
 
 <footer>
-© 2026 Bomban Podcast · bomban.is
+© 2026 Bomban Podcast • bomban.is
 </footer>
 
 </body>
